@@ -18,11 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ticketBase.png" translatesAutoresizingMaskIntoConstraints="NO" id="K80-sl-d7p">
-                                <rect key="frame" x="20" y="100" width="280" height="280"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ticket.png" translatesAutoresizingMaskIntoConstraints="NO" id="K80-sl-d7p">
+                                <rect key="frame" x="20" y="20" width="280" height="155"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hkK-bH-Nwj">
-                                <rect key="frame" x="40" y="120" width="240" height="240"/>
+                                <rect key="frame" x="40" y="40" width="240" height="115"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="9Ma-Zl-D7g" appends="YES" id="WvX-hH-RxX"/>
                                 </connections>
@@ -30,14 +30,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="K80-sl-d7p" firstAttribute="centerX" secondItem="4q5-yW-MyC" secondAttribute="centerX" id="42K-XW-alh"/>
-                            <constraint firstItem="hkK-bH-Nwj" firstAttribute="leading" secondItem="4q5-yW-MyC" secondAttribute="leadingMargin" constant="24" id="5hr-jP-tvQ"/>
-                            <constraint firstItem="K80-sl-d7p" firstAttribute="centerY" secondItem="4q5-yW-MyC" secondAttribute="centerY" id="DaH-Ei-WPF"/>
-                            <constraint firstItem="K80-sl-d7p" firstAttribute="centerX" secondItem="hkK-bH-Nwj" secondAttribute="centerX" id="J4K-GQ-aEe"/>
-                            <constraint firstItem="K80-sl-d7p" firstAttribute="centerY" secondItem="hkK-bH-Nwj" secondAttribute="centerY" id="d1n-z2-aC9"/>
-                            <constraint firstItem="hkK-bH-Nwj" firstAttribute="top" secondItem="cV5-ZO-kfn" secondAttribute="bottom" constant="100" id="lO2-xT-k3d"/>
-                            <constraint firstItem="K80-sl-d7p" firstAttribute="top" secondItem="cV5-ZO-kfn" secondAttribute="bottom" constant="80" id="mzf-sS-ySN"/>
-                            <constraint firstItem="K80-sl-d7p" firstAttribute="leading" secondItem="4q5-yW-MyC" secondAttribute="leadingMargin" constant="4" id="yPO-Sf-YXx"/>
+                            <constraint firstItem="K80-sl-d7p" firstAttribute="centerX" secondItem="hkK-bH-Nwj" secondAttribute="centerX" id="QkC-Hc-Eez"/>
+                            <constraint firstItem="K80-sl-d7p" firstAttribute="top" secondItem="cV5-ZO-kfn" secondAttribute="bottom" id="V9R-WB-Dq5"/>
+                            <constraint firstItem="K80-sl-d7p" firstAttribute="centerY" secondItem="hkK-bH-Nwj" secondAttribute="centerY" id="Zsp-2Q-iIg"/>
+                            <constraint firstItem="K80-sl-d7p" firstAttribute="leading" secondItem="4q5-yW-MyC" secondAttribute="leadingMargin" constant="4" id="hmw-XK-QnB"/>
+                            <constraint firstItem="K80-sl-d7p" firstAttribute="centerX" secondItem="4q5-yW-MyC" secondAttribute="centerX" id="o3l-rj-6Xg"/>
+                            <constraint firstItem="AAf-3o-uYq" firstAttribute="top" secondItem="K80-sl-d7p" secondAttribute="bottom" constant="305" id="uRx-sR-R5O"/>
+                            <constraint firstItem="hkK-bH-Nwj" firstAttribute="top" secondItem="cV5-ZO-kfn" secondAttribute="bottom" constant="20" id="vhI-pk-Jf0"/>
+                            <constraint firstItem="hkK-bH-Nwj" firstAttribute="leading" secondItem="4q5-yW-MyC" secondAttribute="leadingMargin" constant="24" id="ztD-fG-oLQ"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
@@ -56,6 +56,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ticketBase.png" width="600" height="261"/>
+        <image name="ticket.png" width="600" height="260"/>
     </resources>
 </document>

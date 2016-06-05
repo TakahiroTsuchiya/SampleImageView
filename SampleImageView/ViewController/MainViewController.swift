@@ -43,13 +43,12 @@ class MainViewController: UIViewController {
         let alertView = SCLAlertView(appearance: appearance)
         alertView.addButton("Add Image", target: self, selector: #selector(MainViewController.firstButtonAction))
         alertView.addButton("Cancel", action: {
-            print("alert close")
         })
         alertView.showSuccess("TITLE", subTitle: "SUBTITLE")
     }
 
     func firstButtonAction() {
-        self.tapImageView.image = UIImage(named: "tickets.jpg")
+        self.tapImageView.image = UIImage(named: "expired.png")
     }
 }
 

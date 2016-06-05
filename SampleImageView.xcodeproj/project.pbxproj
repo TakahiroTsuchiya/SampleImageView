@@ -12,8 +12,8 @@
 		C3396E731D01BBEF001E4314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3396E711D01BBEF001E4314 /* LaunchScreen.storyboard */; };
 		C3396E7D1D01BC31001E4314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3396E7C1D01BC31001E4314 /* Main.storyboard */; };
 		C3396E7F1D01BC4C001E4314 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3396E7E1D01BC4C001E4314 /* MainViewController.swift */; };
-		C3396E841D01C294001E4314 /* ticketBase.png in Resources */ = {isa = PBXBuildFile; fileRef = C3396E821D01C294001E4314 /* ticketBase.png */; };
-		C3396E851D01C294001E4314 /* tickets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3396E831D01C294001E4314 /* tickets.jpg */; };
+		C35CA5CE1D04051D008458EB /* expired.png in Resources */ = {isa = PBXBuildFile; fileRef = C35CA5CC1D04051D008458EB /* expired.png */; };
+		C35CA5CF1D04051D008458EB /* ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = C35CA5CD1D04051D008458EB /* ticket.png */; };
 		C6E10E42CE60854B12826A01 /* Pods_SampleImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6F07D57594FEBE7747306C /* Pods_SampleImageView.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		C3396E741D01BBEF001E4314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3396E7C1D01BC31001E4314 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboard/Main.storyboard; sourceTree = "<group>"; };
 		C3396E7E1D01BC4C001E4314 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewController/MainViewController.swift; sourceTree = "<group>"; };
-		C3396E821D01C294001E4314 /* ticketBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticketBase.png; path = resources/images/ticketBase.png; sourceTree = "<group>"; };
-		C3396E831D01C294001E4314 /* tickets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tickets.jpg; path = resources/images/tickets.jpg; sourceTree = "<group>"; };
+		C35CA5CC1D04051D008458EB /* expired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = expired.png; path = resources/images/expired.png; sourceTree = "<group>"; };
+		C35CA5CD1D04051D008458EB /* ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticket.png; path = resources/images/ticket.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 		C3396E811D01C1FF001E4314 /*  images */ = {
 			isa = PBXGroup;
 			children = (
-				C3396E821D01C294001E4314 /* ticketBase.png */,
-				C3396E831D01C294001E4314 /* tickets.jpg */,
+				C35CA5CC1D04051D008458EB /* expired.png */,
+				C35CA5CD1D04051D008458EB /* ticket.png */,
 			);
 			name = " images";
 			sourceTree = "<group>";
@@ -187,11 +187,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3396E841D01C294001E4314 /* ticketBase.png in Resources */,
 				C3396E7D1D01BC31001E4314 /* Main.storyboard in Resources */,
+				C35CA5CF1D04051D008458EB /* ticket.png in Resources */,
 				C3396E731D01BBEF001E4314 /* LaunchScreen.storyboard in Resources */,
 				C3396E701D01BBEF001E4314 /* Assets.xcassets in Resources */,
-				C3396E851D01C294001E4314 /* tickets.jpg in Resources */,
+				C35CA5CE1D04051D008458EB /* expired.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
